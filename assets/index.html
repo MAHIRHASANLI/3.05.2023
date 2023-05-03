@@ -1,0 +1,71 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./grid.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body id="indexbody">
+
+    <div id="fixed">
+        <div><label id="searc" for="search"><i class="fa-solid fa-magnifying-glass"></i><strong
+                    id="searcspan">Search</strong></label>
+            <input id="search" placeholder="Search..." type="text">
+            <button id="sort"><i class="fa-solid fa-sort"></i><strong id="sortspan">Sort</strong></button>
+        </div>
+    </div>
+
+    <div class="container">
+        <input id="pi_input" type="range" min="7" max="1000" step="1" />
+        <p>Value: <output id="value"></output></p>
+        <input id="pin_input" type="range" min="7" max="1000" step="1" />
+        <p>Value: <output id="azad"></output></p>
+        <button id="inputaaa">Range..</button>
+
+        <div id="products" class="row">
+
+        </div>
+    </div>
+
+
+
+    <div id="loader" class="display-block mx-auto">
+        <div class="spinner-grow text-primary" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-grow text-secondary" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-grow text-success" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-grow text-danger" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-grow text-warning" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-grow text-info" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-grow text-light" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-grow text-dark" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>

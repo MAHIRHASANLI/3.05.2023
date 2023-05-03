@@ -1,0 +1,152 @@
+body{
+    padding-top:30px
+}
+#fixed{
+    width: 90%;
+    margin:0 auto;
+    position: sticky;
+    top:0;
+    z-index: 999;
+}
+.container{
+  padding-top:70px;
+}
+#indexbody{
+    background-image:  url(" https://img.freepik.com/premium-photo/3d-rendering-online-shopping-system_464463-468.jpg?w=740");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+#products{
+    padding-top:40px
+}
+.card{
+    height: 480px;
+}
+.card-img-top{
+    height: 270px;
+}
+#search{
+    border-radius:10px;
+    height: 40px;
+    width: 90%;
+
+    transition:.5S;
+}
+#search:hover{
+   
+    background-color:rgba(0,0,255,0.40);
+}
+i{
+    font-size:40px;
+    background-color:transparent;
+}
+#searc{
+    position: relative;
+}
+
+#searcspan{
+    transition: .3s linear;
+    /* display:none;  */
+    position: absolute;
+    bottom:-50px;
+    left:-7px;
+    font-size:30px; 
+    color:blue;
+}
+#searc:hover #searcspan{
+
+
+    color:red;
+display:block;
+} 
+#sort{
+    position: relative;
+}
+#sortspan{
+    transition: .3s linear;
+    position: absolute;
+    bottom:-50px;
+    left:-7px;
+    font-size:30px; 
+    color:blue;
+}
+#sort:hover #sortspan{
+    position: absolute;
+    bottom:-50px;
+    left:-7px;
+    font-size:30px;
+    color:red;
+display:block;
+}
+.productt{
+    font-size:16px;
+    transition:.3s;
+}
+.productt:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform:scale(1.01);
+}
+.card-body{
+    background-image: url("https://img.freepik.com/premium-photo/d-shopping-online-concept-with-shopping-cart-bag-balloon-credit-card-mobile-phone-3d-rendering_265427-252.jpg?size=626&ext=jpg&ga=GA1.1.796802733.1683075340&semt=robertav1_2_sidr");
+    background-repeat:no-repeat;
+    background-size: cover;
+    color:white;
+}
+/* /////////////// */
+#detelbody{
+    background-image: url("https://img.freepik.com/free-photo/arrangement-black-friday-shopping-carts-with-copy-space_23-2148667047.jpg?w=740&t=st=1683075352~exp=1683075952~hmac=8a99cf01afbadb6b380f859eef3eb1bbf03130d8f37577c2dc851873167f54da");
+    background-repeat:no-repeat;
+    background-size: cover;
+   
+}
+/* #image:hover #detelbody{
+    background-image: url("")
+}  */
+#image{
+    width: 100%;
+    height: 80%;
+    transition:.3s linear;
+}
+#image:hover{
+    transform: scale(1.1);
+}
+.detels-item{
+    transition:.3s linear;
+    font-size:25px;
+    padding-top:100px;
+    padding-left:100px;
+    color:white
+}
+.detels-item:hover{
+    transform: scale(1.1); 
+}
+
+#backbtn{
+    height: 45px;
+    border-radius:10px;
+    font-size:20px
+}
+#modal{
+    width: 900px;
+    height: 800px;
+
+top:80%;
+left:10%;
+background-color:rgba(0,0,255,0.450);
+    position: absolute;
+    background-image: url("https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg");
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align:center;
+    border-radius:5px;
+    padding:15px;
+    z-index:22;
+    transform:translate(-50%, -50%) scale(0);
+    transition: .5s;
+    visibility: hidden;
+    opacity: 0;
+}
+.modalbtn{
+position:absolute;
+bottom:20px;
+padding:20px 40px;
+}
